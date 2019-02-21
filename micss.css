@@ -1,3 +1,8 @@
 body{
-  background-color: lightblue;
+  background-color: gray;
+}
+
+#display{
+  border-style: double;
+  border-color: orange;
 }
