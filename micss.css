@@ -1,8 +1,46 @@
 body{
   background-color: gray;
+  background-image: url("fondolink.gif");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
 }
 
 #display{
   border-style: double;
   border-color: orange;
+  text-align: center;
+  color: turquoise;
+  background-color: black;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.input{
+  text-align: center;
+}
+
+.botones{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+  color: turquoise;
+  background-color: gray;
+  border-radius: 15px;
+  border: 3px double orange;
+}
+
+.botones:hover{
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+#display:hover{
+  background-color: turquoise;
+  color: black;
 }
